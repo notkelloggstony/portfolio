@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ta-studio/static/css/main.b0b57638.chunk.css",
+    "main.js": "/ta-studio/static/js/main.c6c34e64.chunk.js",
+    "main.js.map": "/ta-studio/static/js/main.c6c34e64.chunk.js.map",
+    "runtime-main.js": "/ta-studio/static/js/runtime-main.dd3d69d0.js",
+    "runtime-main.js.map": "/ta-studio/static/js/runtime-main.dd3d69d0.js.map",
+    "static/js/2.1536a0d2.chunk.js": "/ta-studio/static/js/2.1536a0d2.chunk.js",
+    "static/js/2.1536a0d2.chunk.js.map": "/ta-studio/static/js/2.1536a0d2.chunk.js.map",
+    "static/js/3.af3c10ea.chunk.js": "/ta-studio/static/js/3.af3c10ea.chunk.js",
+    "static/js/3.af3c10ea.chunk.js.map": "/ta-studio/static/js/3.af3c10ea.chunk.js.map",
+    "index.html": "/ta-studio/index.html",
+    "static/css/main.b0b57638.chunk.css.map": "/ta-studio/static/css/main.b0b57638.chunk.css.map",
+    "static/js/2.1536a0d2.chunk.js.LICENSE.txt": "/ta-studio/static/js/2.1536a0d2.chunk.js.LICENSE.txt",
+    "static/media/logo.c4aff969.svg": "/ta-studio/static/media/logo.c4aff969.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd3d69d0.js",
+    "static/js/2.1536a0d2.chunk.js",
+    "static/css/main.b0b57638.chunk.css",
+    "static/js/main.c6c34e64.chunk.js"
+  ]
+}

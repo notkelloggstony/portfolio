@@ -1,77 +1,78 @@
-.noselect {
-  user-select: none;
-  -webkit-user-select: none; /*Safari*/
-  -moz-user-select: none; /*Firefox*/
-}
-
-.app {
-  background-color: #333;
-  text-align: center;
-}
-
+/* General styling */
 .app-link {
   color: #61dafb;
 }
 
+/* Navigation */
 .app-logo {
-  height: 32px;
+  height: 2.5rem;
   align-self: center;
-  margin: 0 20px 0 12px;
 }
 
-#navigation {
+#nav {
   display: flex;
-  background-color: #222;
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 0 2rem;
+  height: 2rem;
 }
 
-.navigation-list {
-  list-style-type: none;
+.nav-list {
   display: flex;
-  margin: 0;
-  padding: 0;
-  top: 0;
   overflow: hidden;
+  list-style-type: none;
+  line-height: 1.5rem;
 }
 
-.navigation-list li a {
+.nav-list a {
   display: block;
-  color: white;
+  color: #fff;
 }
 
-.navigation-list li:hover{
-  /* background-color: #111; */
-  opacity: 67%;
+.nav-list a:hover {
+  color: #666;
 }
 
-#navigation-links {
-  
+.nav-list a {
+  padding: 1rem 2rem;
 }
 
-#navigation-links li a {
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-#navigation-icons {
-  margin-left: auto;
-  margin-right: 12px;
-}
-
-#navigation-icons li a {
-  height: 100%;
-  width: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
+/* Pages */
 .page {
   background-color: transparent;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 1em;
+  margin: 0 5%;
+}
+
+/* Title */
+#title {
+  padding: 100px 0;
+}
+
+.title-text {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+/* Projects */
+.project-thumbnail {
+  padding-bottom: 6rem;
+}
+
+.project-thumbnail img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  transition: 0.3s;
+}
+
+.project-thumbnail img:hover {
+  opacity: 0.67;
+}
+
+.project-title {
+  align-self: center;
+  margin: 0;
 }

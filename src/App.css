@@ -1,21 +1,59 @@
-/* General styling */
-.app-link {
-  color: #61dafb;
+/* ---------- General styling ---------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
 }
 
-/* Navigation */
+h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+hr {
+  margin: 0;
+}
+
+section {
+  padding: 50px 5%;
+}
+
+.page {
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.dark-page {
+  background-color: #181818;
+  color: #fff;
+}
+
+
+
+
+
+
+/* ---------- Navigation ---------- */
 .app-logo {
   height: 2.5rem;
   align-self: center;
 }
 
 #nav {
-  display: flex;
-  background: #c31432;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  padding: 0 2rem;
-  height: 2rem;
+  background: #00c6ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .nav-list {
@@ -23,39 +61,48 @@
   overflow: hidden;
   list-style-type: none;
   line-height: 1.5rem;
+  margin: 0 calc(5% - 32px) 0;
+  padding: 0;
 }
 
 .nav-list a {
   display: block;
   color: #fff;
-}
-
-.nav-list a:hover {
-  color: #666;
+  font-weight: 600;
 }
 
 .nav-list a {
   padding: 1rem 2rem;
 }
 
-/* Pages */
-.page {
-  background-color: transparent;
-  min-height: 100vh;
-  margin: 0 5%;
-}
 
-/* Title */
+
+
+
+
+/* ---------- Title section ---------- */
 #title {
-  padding: 100px 0;
+  padding-top: 100px;
 }
 
-.title-text {
-  font-size: 3.5rem;
-  font-weight: 700;
+.title-description {
+  padding: 0 0 3rem;
 }
 
-/* Projects */
+.title-buttons {
+  padding-bottom: 50px;
+}
+
+.title-buttons a {
+  margin-right: 1rem;
+}
+
+
+
+
+
+
+/* ---------- Projects ---------- */
 .project-thumbnail {
   padding-bottom: 6rem;
 }
@@ -72,7 +119,36 @@
   opacity: 0.67;
 }
 
-.project-title {
-  align-self: center;
+.project-thumbnail-title {
   margin: 0;
+}
+
+.project-img-caption {
+  font-size: 0.875rem;
+  margin: 0 auto;
+}
+
+.post-category {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.project-page-section h2:not(:first-child) {
+  margin-top: 3rem;
+}
+
+.project-page-section h3 {
+  margin-top: 2rem;
+}
+
+.project-page-card {
+  background-color: #181818;
+  color: #fff;
+  padding: 24px 36px;
+  margin-top: 24px;
+}
+
+.project-page-list li {
+  margin-bottom: 1rem;
 }

@@ -9,7 +9,7 @@ function Thumbnail(props) {
             <Link to={props.link}>
                 <img src={process.env.PUBLIC_URL + '/images/' + props.image} alt="project thumbnail"/>
             </Link>
-            <p className="project-title">{props.title}</p>
+            <p className="project-thumbnail-title">{props.title}</p>
         </div>
     );
 }

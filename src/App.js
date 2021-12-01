@@ -4,40 +4,39 @@ import { Route, Switch, Link } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
-//import logo from './logo.svg';
-// import Icon from '@mdi/react';
-// import { mdiGithub } from '@mdi/js';
+import Project1 from './components/Project1';
+// import Project2 from './components/Project2';
+// import Project3 from './components/Project3';
+// import logo from './logo.svg';
 
 function App() {
   return (
-    <div className="app">  
-      <div>
+    <div className="app">
         <nav id="nav" className="noselect">
-          {/* <img src={logo} className="app-logo" alt="logo" />
+          {/* <img src={logo} className="app-logo" alt="logo" /> */}
           <ul className="nav-list">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">Portfolio</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/about">About</Link>
             </li>
             <li>
               <Link to="/contact">Contact</Link>
-            </li>
-          </ul> */}
+            </li> */}
+          </ul>
         </nav>
-      </div>
+
+      {/* Routing */}
       <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/projects/factory-status-boards" component={Project1} />
+        {/* <Route path="/projects/hmi-user-management" component={Project2} /> */}
+        {/* <Route path="/projects/digital-advertising-client-portal" component={Project3} /> */}
     </Switch>
+
     </div>
   );
 }

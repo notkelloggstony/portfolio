@@ -1,6 +1,6 @@
 {
-  "name": "ta-studio",
-  "homepage": "http://notkelloggstony.github.io/ta-studio",
+  "name": "portfolio",
+  "homepage": "http://notkelloggstony.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

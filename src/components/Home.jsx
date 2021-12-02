@@ -13,9 +13,12 @@ class Home extends React.Component {
                 <section id="title">
                     <h1 className="title-text">Hey! I'm Tony.</h1>
                     <div className="title-description">
-                        <p>I'm a user experience designer, software developer, and nerd of many things.</p>
+                        <p>I'm a code-savvy designer, UX aficionado, and nerd of many things.</p>
+                        <br />
+                        <p>I've worked on dozens of custom applications and another dozen software products to boot! Check out a small sample of my past work below.</p>
                     </div>
                     <div className="title-buttons">
+                        <p>Want to chat?</p>
                         <a className="btn btn-primary title-button-space shadow-none" href="https://www.linkedin.com/in/notkelloggstony" target="_blank" rel="noreferrer" role="button">
                             <Icon path={mdiLinkedin} size="1.2rem"/> LinkedIn
                         </a>

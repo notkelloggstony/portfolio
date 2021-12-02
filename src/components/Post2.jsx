@@ -137,7 +137,7 @@ class Post2 extends React.Component {
 
                 <section className="project-page-section">
                     <h2>Design</h2>
-                    <p>I had previously built a design system and UI kit for my team's ProViewDSs projects, so standard UI controls and a new layout were easy to import. After creating a look and feel mock-up for our client’s review, I built a skeleton of template pages and side navigation for developers to re-use.</p>
+                    <p>I had previously built a design system and UI kit for my team's ProViewDS projects, so standard UI controls and a new layout were easy to import. After creating a look and feel mock-up for our client’s review, I built a skeleton of template pages and side navigation for developers to re-use.</p>
                     <div className="row">
                         <img className="col-lg-8" src={process.env.PUBLIC_URL + '/images/factory-status-boards-wireframe.png'} alt="new admin layout screenshot" />
                     </div>
